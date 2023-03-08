@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Nunito+Sans:wght@400;700&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+}
+
+body {
+    background-color: #1982C4;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+header {
+    background-color: #0C056D;
+    color: white;
+    font-family: "Bakbak One"
+}
+
+#banner {
+    width: 100%;
+}
+
+.inline {
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
