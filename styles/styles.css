@@ -25,12 +25,19 @@ header {
     width: 100%;
 }
 
-.inline {
-    width: 25%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 footer {
     text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 25px;
+    align-items: center;
+}
+
+.img1, .img2, .img3 {
+    width: 100%;
+    border: solid black;
 }
